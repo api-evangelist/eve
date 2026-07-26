@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.eve.legal/security-and-compliance
+url: https://www.eve.legal/trust
+certifications:
+- SOC 2 Type 2
+- HIPAA
+evidence:
+- source: https://www.eve.legal/security-and-compliance
+  quote: Proud to be the first legal AI to be SOC II Type 2 certified.
+  keywords: [soc 2 type 2, hipaa, security, compliance]
+- source: https://www.eve.legal/trust
+  quote: >-
+    Trust page describing Eve's "Trust but Verify" RAG methodology and data
+    isolation at the organization, user, and workflow levels.
+notes: >-
+  Eve publishes a security & compliance posture page and a trust page. Named
+  third-party certification is SOC 2 Type 2; HIPAA compliance is claimed for
+  handling sensitive client/medical data. Design claims include a zero-retention
+  API and no use of customer documents/prompts/outputs to train foundational
+  models. No public sub-processor list, security.txt, or bug-bounty/vulnerability
+  disclosure program was found (probed 2026-07-19: /.well-known/security.txt 404).

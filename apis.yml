@@ -1,8 +1,26 @@
 aid: eve
 name: Eve
-description: Eve is a company surfaced as a portfolio company of a16z, lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Eve (branded EveOS) is an AI operating system purpose-built for plaintiff
+  and personal-injury law firms, founded in 2023 and headquartered in San Mateo, California.
+  The platform works alongside attorneys across the entire case lifecycle - intake and
+  lead qualification, document and medical-record review, medical chronology generation,
+  case and risk analysis, damages calculation, and case management - bringing every case,
+  attorney, and dollar into one place. Eve integrates with practice-management systems
+  such as Clio, is SOC 2 Type 2 certified and HIPAA compliant, and is backed by Andreessen
+  Horowitz (a16z), Lightspeed Venture Partners, and Menlo Ventures. Eve is a closed SaaS
+  product and does not currently publish a public developer API, SDK, or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.eve.legal/eve_logo_icon_192.png
 url: https://raw.githubusercontent.com/api-evangelist/eve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +31,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- Legal AI
+- LegalTech
+- Personal Injury
+- Case Management
+- Artificial Intelligence
+- Document Review
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eve-domain-security.yml
+- type: Website
+  url: https://www.eve.legal/
+- type: Blog
+  url: https://www.eve.legal/blog
+- type: Login
+  url: https://app.eve.legal
+- type: PrivacyPolicy
+  url: https://www.eve.legal/privacy-policy
+- type: TermsOfService
+  url: https://www.eve.legal/eve-enterprise-terms
+- type: Compliance
+  url: https://www.eve.legal/security-and-compliance
+- type: TrustCenter
+  url: https://www.eve.legal/trust
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
