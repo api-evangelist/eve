@@ -9,6 +9,17 @@ description: Eve (branded EveOS) is an AI operating system purpose-built for pla
   such as Clio, is SOC 2 Type 2 certified and HIPAA compliant, and is backed by Andreessen
   Horowitz (a16z), Lightspeed Venture Partners, and Menlo Ventures. Eve is a closed SaaS
   product and does not currently publish a public developer API, SDK, or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
