@@ -1,0 +1,27 @@
+# Front Door AI Index — eve — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: eve
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.eve.legal
+  final_host: www.eve.legal
+  ownership: own
+  owner: eve
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 14.6
+  words: 1644
+  tiers:
+    agentic: 0
+    core: 22
+    model: 2
+  ambiguous: 4
+  top_terms:
+    AI: 22
+    agent: 4
+    ChatGPT: 2
